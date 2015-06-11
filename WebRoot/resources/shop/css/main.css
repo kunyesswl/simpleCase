@@ -1,0 +1,40 @@
+.ctn_content_main_right .content .button_370 span {
+	height: 40px;
+	width: 370px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 2.5em;
+	margin-right: 4px;
+}
+.grey_line {
+	background-image: url(../images/cut-line.png);
+	text-align: center;
+	height: 26px;
+	width: 652px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+
+.ctn_content_main_right .content span a{
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+.deposit_apply{
+	background-color:#6ca00d;
+	
+}
+.withdraw_apply{
+	background-color:#0561ae;
+}
+
+.coin_info {
+	font-size: 12px;
+	color:#989898;
+	padding:6px;
+	margin-left:40px;
+	clear: both;
+}
