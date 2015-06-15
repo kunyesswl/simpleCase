@@ -8,7 +8,7 @@
 
 	<context:property-placeholder location="classpath*:/config.properties" ignore-resource-not-found="true" ignore-unresolvable="true" />
 
-	<context:component-scan base-package="net.bank" use-default-filters="false">
+	<context:component-scan base-package="com.scase" use-default-filters="false">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 
@@ -65,9 +65,9 @@
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<property name="defaultEncoding" value="UTF-8" />
 	</bean>
-
+<!-- 
 	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
-		<property name="defaultErrorView" value="shop/common/error" />
-	</bean>
+		<property name="defaultErrorView" value="web/common/error" />
+	</bean> -->
 
 </beans>

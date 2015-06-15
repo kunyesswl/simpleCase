@@ -109,8 +109,8 @@
 				<entry key="systemShowPowered" value="#{${system.show_powered}}" />
 				<entry key="base" value="#{servletContext.contextPath}" />
 				<entry key="locale" value="${locale}" />
-				<entry key="setting" value="#{T(net.bank.util.SettingUtils).get()}" />
-				<entry key="message" value-ref="messageMethod" />
+				<entry key="setting" value="#{T(com.scase.core.util.SettingUtils).get()}" />
+			<!-- 	<entry key="message" value-ref="messageMethod" />
 				<entry key="status" value-ref="statusMethod" />
 				<entry key="abbreviate" value-ref="abbreviateMethod" />
 				<entry key="currency" value-ref="currencyMethod" />
@@ -123,7 +123,7 @@
 				<entry key="member_attribute_list" value-ref="memberAttributeListDirective" />
 				<entry key="navigation_list" value-ref="navigationListDirective" />
 				<entry key="tag_list" value-ref="tagListDirective" />
-				<entry key="friend_link_list" value-ref="friendLinkListDirective" />
+				<entry key="friend_link_list" value-ref="friendLinkListDirective" /> -->
 			</map>
 		</property>
 	</bean>
@@ -146,7 +146,7 @@
 
 	<bean id="imageCaptchaService" class="com.octo.captcha.service.image.DefaultManageableImageCaptchaService">
 		<property name="captchaEngine">
-			<bean class="net.bank.CaptchaEngine" />
+			<bean class="com.scase.core.CaptchaEngine" />
 		</property>
 		<property name="minGuarantedStorageDelayInSeconds" value="3600" />
 	</bean>
