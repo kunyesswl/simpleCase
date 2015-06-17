@@ -129,11 +129,7 @@ public class CommonController {
 	 */
 	@RequestMapping("/error")
 	public String error() {
-		return "/shop/common/error";
-	}
-	@RequestMapping("/shop/common/error")
-	public String errorview() {
-		return "/shop/common/error";
+		return "/web/common/error";
 	}
 
 	/**
