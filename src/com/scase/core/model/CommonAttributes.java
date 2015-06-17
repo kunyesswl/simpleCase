@@ -20,6 +20,8 @@ public final class CommonAttributes {
 	/** config.properties文件路径 */
 	public static final String CONFIG_PROPERTIES_PATH = "/config.properties";
 
+	
+	public static final String SCASE_XML_PATH = "/scase.xml";
 	/**
 	 * 不可实例化
 	 */

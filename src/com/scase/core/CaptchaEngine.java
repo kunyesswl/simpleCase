@@ -1,5 +1,7 @@
 /*
-
+ * Copyright 2005-2013 shopxx.net. All rights reserved.
+ * Support: http://www.shopxx.net
+ * License: http://www.shopxx.net/license
  */
 package com.scase.core;
 
@@ -51,7 +53,7 @@ public class CaptchaEngine extends ListImageCaptchaEngine {
 	private static final String CHAR_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZSZHZOZPZXZXZ";
 
 	/** 随机背景图片路径 */
-	private static final String BACKGROUND_IMAGE_PATH = "/com/scase/captcha/";
+	private static final String BACKGROUND_IMAGE_PATH = "/com/scase/core/captcha";
 
 	/**
 	 * 随机字体
