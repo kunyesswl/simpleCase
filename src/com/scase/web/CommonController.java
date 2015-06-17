@@ -57,7 +57,7 @@ public class CommonController {
 		if (setting.getIsSiteEnabled()) {
 			return "redirect:/";
 		} else {
-			return "/shop/common/site_close";
+			return "/web/common/site_close";
 		}
 	}
 
@@ -137,7 +137,7 @@ public class CommonController {
 	 */
 	@RequestMapping("/resource_not_found")
 	public String resourceNotFound() {
-		return "/shop/common/resource_not_found";
+		return "/web/common/resource_not_found";
 	}
 
 }
