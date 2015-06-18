@@ -114,7 +114,7 @@
 	<logConfig operation="订单发货" urlPattern="/admin/order/shipping.jhtml" />
 	<logConfig operation="订单退货" urlPattern="/admin/order/returns.jhtml" />
 	
-	<template id="shopCommonJs" type="page" name="shop_common_js" templatePath="/shop/js/common.ftl" staticPath="/resources/shop/js/common.js" />
+	<template id="shopCommonJs" type="page" name="shop_common_js" templatePath="/web/js/common.ftl" staticPath="/resources/shop/js/common.js" />
 	<template id="adminCommonJs" type="page" name="admin_common_js" templatePath="/admin/js/common.ftl" staticPath="/resources/admin/js/common.js" />
 	<template id="sitemapIndex" type="page" name="sitemap索引" templatePath="/shop/xml/sitemap_index.ftl" staticPath="/sitemap/index.xml" />
 	<template id="sitemap" type="page" name="sitemap" templatePath="/shop/xml/sitemap.ftl" staticPath="/sitemap/${index}.xml" />
@@ -122,7 +122,7 @@
 	<template id="footer" type="page" name="底部" templatePath="/shop/include/footer.ftl" />
 	<template id="login" type="page" name="登录" templatePath="/shop/login/index.ftl" />
 	<template id="register" type="page" name="注册" templatePath="/shop/register/index.ftl" />
-	<template id="index" type="page" name="首页" templatePath="/shop/index.ftl" staticPath="/index.html" />
+	<template id="index" type="page" name="首页" templatePath="/web/index.ftl" staticPath="/index.html" />
 	<template id="articleContent" type="page" name="文章内容" templatePath="/shop/article/content.ftl" staticPath="/article/content/${createDate?string('yyyyMM')}/${id}/${pageNumber!1}.html" />
 	<template id="articleList" type="page" name="文章列表" templatePath="/shop/article/list.ftl" />
 	<template id="articleSearch" type="page" name="文章搜索" templatePath="/shop/article/search.ftl" />
